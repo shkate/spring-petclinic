@@ -9,3 +9,10 @@ licenseRules:
           - "GPL-2.0-or-later"
           - "GPL-3.0-only"
           - "GPL-3.0-or-later"
+dependencyOverrides:
+          - name: "antlr"
+            version: "2.7.7"
+            url: "https://github.com/antlr/antlr4/tree/4.2.2"
+            licenses:
+              - key: "Apache-2.0"
+                url: "https://www.apache.org/licenses/LICENSE-2.0.txt"
